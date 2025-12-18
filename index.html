@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OBMC Enroll Now</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css " rel="stylesheet">
+
+  <style>
+
+  body{
+        background-image: url("Untitled design copy.png");
+        color: black;
+        background-position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+
+  .center-image {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+    }
+
+    .inline-element{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.submitenrollment{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-select{
+    padding: 5px;
+}
+
+.placeholder-select {
+  color: #b2b2b2;
+}
+
+.placeholder-select option {
+  color: #0a4c86;
+}
+
+.placeholder-select:focus,
+.placeholder-select:valid {
+  color: #0a4c86;
+}
+
+  </style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark navbar" style="background-color: white;">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="OBMC+LOGO+2024-04.png" alt="logo" height="50px" width="50px"></a>
+         <button class="navbar-toggler" style="background-color: #0a4c86; color: white;" type="button" data-bs-toggle="collapse" data-bs-target="mynavbar">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" target="_self" style="color: #0a4c86;"><b>HOME</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html" target="_self" style="color: #0a4c86;"><b>ABOUT US</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html" target="_self" style="color: #0a4c86;"><b>CONTACT US</b></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="enroll.html" target="_self" style="color: #0a4c86;"><b>ENROLL</b></a>
+                </li>
+            </ul>
+
+            <form class="search-form" action="/search" method="get">
+            <input type="search" id="search-input" name="query" placeholder="Search" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 5px; border-radius: 5px; border-width: 1px;">
+            <button type="submit" style="background-color: #0a4c86; padding: 5px; color: white; border-radius: 5px; border-width: 0px;">Search</button>
+            </form>
+
+         </div>
+        </div>
+    </nav>
+
+
+   <div class="center-image">
+  <img src="1724046681-141.png" height="100" width="100">
+    </div>
+
+    <div class="text-center">
+    <p style="font-size: x-large; color: #0a4c86; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">OBMC</p>
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Student Enrollment Form (A.Y. '26-'27)</p>
+    </div>
+
+    <div class="container-lg">
+
+    <form style="background-color: rgba(255, 255, 255, 0.7); padding: 20px; border-radius: 15px; margin-bottom: 50px; margin-top: 30px;">
+
+        <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Student Information</h3>
+    
+    <div class="row">
+    <div class="col-md-4 mb-3">
+        <label for="name" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">First Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Input first name here" style="border-radius: 5px; border-width: 0px; width:100%; padding: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><br>
+    </div>
+
+     <div class="col-md-4 mb-3">
+        <label for="name" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Middle Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Input middle name here" style="border-radius: 5px; border-width: 0px; width:100%; padding: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><br>
+    </div>
+
+     <div class="col-md-4 mb-3">
+        <label for="name" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Surname:</label><br>
+        <input type="text" id="name" name="name" placeholder="Input surname here" style="border-radius: 5px; border-width: 0px; width:100%; padding: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><br>
+    </div>
+    </div>
+
+    <div class="row">
+
+    <div class="col-md-4 mb-3">
+        <label for="birthdate" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86; ">Birth Date:</label><br>
+        <input type="date" id="birthdate" name="birthdate" placeholder="mm/dd/yyyy" style="border-radius: 5px; border-width: 0px; width:100%; padding: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><br>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <label for="sex" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86; ">Sex by Birth:</label><br>
+        <select name="sex" id="sex" class="form-select big-select placeholder-select" style="border-radius: 5px; border-width: 0px; width:100%; padding: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" required>
+        <option value="" selected disabled>Select...</option>
+        <option value="female" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Female</option>
+        <option value="male" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Male</option>
+        </select>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <label for="gradelevel" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86; ">Grade Level (A.Y. '26-'27):</label><br>
+        <select name="gradelevel" id="gradelevel" class="form-select big-select placeholder-select" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" required>
+        <option value="" selected disabled>Select...</option>
+        <option value="01" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Junior Casa (Casa)</option>
+        <option value="02" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Junior Advanced Casa (Casa)</option>
+        <option value="03" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Advanced Casa (Casa)</option>
+        <option value="1" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 1 (Primary)</option>
+        <option value="2" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 2 (Primary)</option>
+        <option value="3" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 3 (Primary)</option>
+        <option value="4" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 4 (Intermediate)</option>
+        <option value="5" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 5 (Intermediate)</option>
+        <option value="6" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 6 (Intermediate)</option>
+        <option value="7" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 7 (Junior High School)</option>
+        <option value="8" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 8 (Junior High School)</option>
+        <option value="9" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 9 (Junior High School)</option>
+        <option value="10" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 10 (Junior High School)</option>
+        <option value="11" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 11 (Senior High School)</option>
+        <option value="12" style="border-radius: 5px; border-width: 0px; width:100%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Grade 12 (Senior High School)</option>
+    </select>
+    </div>
+    </div>
+
+    <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Contact Details</h3>
+
+    <div class="row">
+    <div class="col-md-12 mb-3">
+        <label for="email" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">E-mail Address:</label><br>
+        <input type="text" id="email" name="email" placeholder="name@example.com" style="border-radius: 5px; border-width: 0px; width:100%; padding: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><br>
+    </div>
+
+     <div class="col-md-12 mb-3">
+        <label for="number" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">E-mail Address:</label><br>
+        <input type="number" id="number" name="number" placeholder="0968-112-0811" style="border-radius: 5px; border-width: 0px; width:100%; padding: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><br>
+    </div>
+
+    <div class="col-md-12 mb-3">
+        <label for="address" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Home Address:</label><br>
+        <input type="text" id="address" name="address" placeholder="Input home address here" style="border-radius: 5px; border-width: 0px; width:100%; padding: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><br>
+    </div>
+
+        <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Other Details</h3>
+
+    <div class="radio-button">
+    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Mode of Learning:</p>
+    <input type="radio" id="mode" name="mode" value="online">
+    <label for="mode1" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">Online</label><br>
+    <input type="radio" id="mode" name="mode" value="ftf">
+    <label for="mode2" style="margin-bottom: 15px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;"">Face-to-face</label><br>
+    </div>
+
+    <div class="inline-element">
+    <input type="checkbox" id="confirmation">
+    <label for="confirmation" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: #0a4c86;">I confirm that the information provided is true and complete.</label>
+    </div>
+
+    <div class="submitenrollment">
+    <button type="submit" style="background-color: #0a4c86; padding: 5px; color: white; border-radius: 5px; border-width: 0px; margin-top: 20px; margin-bottom: 10px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Submit Enrollment</button>
+    </div>
+    
+    </form>
+    </div>
+
+    <div style="background-color: #0a4c86; color: white; margin-bottom: 50px;">
+        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 5px; text-align: center;">© Student Enrollment System | OBMC</p>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+</html>
